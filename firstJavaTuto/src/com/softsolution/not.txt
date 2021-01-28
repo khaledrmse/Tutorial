@@ -1,0 +1,8 @@
+*Exception 
+
+is a problem that occur in the execution time of the program, when an exception occur the program 
+terminate abnormally there are 3 types: 
+		1. Checked exceptions: occur at the compile time, example read file that don't exist
+		2.Unchecked exceptions : is an exception that occurs at the time of execution in logic error Exemple: declare a tab of 5 and you call the 6th element. 
+		3. Error: syntaxe error.
+	The finally block follows a try block or a catch block. A finally block of code always executes, irrespective of occurrence of an Exception.
