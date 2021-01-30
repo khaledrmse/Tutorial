@@ -1,3 +1,7 @@
 Inheritance can be defined as the process where one class acquires the properties 
 (methods and fields) of another
+The super keyword is similar to this keyword. Following are the scenarios where the super keyword is used.
 
+1. It is used to differentiate the members of superclass from the members of subclass, if they have same names.
+
+2. It is used to invoke the superclass constructor from subclass.
