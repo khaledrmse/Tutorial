@@ -1,0 +1,37 @@
+***step of programming 
+
+1. Design 
+2. write the code
+4. write tests
+5. run tests
+
+**Why testing:***********
+
+when we write a test case we can assure that the code will run good when modifications in future
+
+************************************
+when use test in junit we have tow major point 
+1.. the expected value;
+2.. actual value 
+the objectif is make the expected value is equal to actual value 
+************************************
+Test Steps
+1.  preparation
+2.  provide a test inputs
+3.  run the test
+4. provide the expected values
+5. verify result (provided values ?= expected values )
+6. do somthing
+*************************************
+junit 4 old framework
+monolotic
+not updated java avanced
+just one jar
+**************************************
+junit 5 is platform
+junit 5 have api that called jupitter (provid method to test)
+junit 5 have api also vintage (using the old test writing with junit 4)
+junit 5 EXT  api is used to extent the API of Junit5
+*******************************************
+@Test mark the method to test
+

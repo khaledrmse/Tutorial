@@ -1,0 +1,27 @@
+@DisplayName: change the display name of the method displayed in junit bar
+@Disbled : disable the method will be executed
+@EnabledOnOS: the test class will be executed only on the specified OS @EnabledOnOs(OS.LINUX) only on linux
+@EnabledOnJre(JRE.JAVA_11): will be executed only on jre 11
+@EnableIf: test to execute the test
+@EnableIfSystemProperty: executed if system property
+@EnbleIfEnvironmentVariable: for environment variable
+
+assumtrue(value) is method that tell junit run the folow code if value is true; in this maner we will programm
+different senario;
+
+assertAll make a mutiple test in one statment
+
+@Nested allow you to group methods test in one class annotated by @Nested
+
+we can use lembda expression to display the message in assert
+
+@RepeatedTest(3) replace  @Test and execute the method 3 times get ReptitionInfo repetition 
+
+
+@Tag tag your test used in large code to assemble simelair function  so when you Tag a set of method
+
+you can execute only these methods by configuration junittest in run configuration in linux
+
+
+TestInfo get information about test
+TestReport to custom display in junit console

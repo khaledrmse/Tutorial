@@ -1,0 +1,12 @@
+**************************************
+create an instance of the class under test
+set up inputs
+execute the code that you want to test
+verify the result is what you except
+******************************************
+Assertion method to make sure that the expected value equal to the actual method
+assertEqual(expected, actual) 
+assertArrayEquals(array1,array2)==> for array
+assertIterableEquals(array1,array2)==> confirmation of position
+we can add message to assert method to make it read in the console
+assertEquals(expected, actual, message)

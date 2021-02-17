@@ -1,0 +1,18 @@
+each run of the test it will be initialeze the method at every execution
+test method don't have a specific order
+@BeforeAll: executed before all test method
+@BeforeEach: executed before each method
+@AfterAll: executed after all methods test
+@AfterEeach: executed after each method
+
+
+beforeAll will be executed before the instance of the test class ;
+
+so ther method should be static
+
+test instance make your junit test class behave differently 
+option : Per method: instance is created for each method 
+		 Per class  : create instance for class
+		 
+	when we use TestInstance.Lifecycle.PER_CLASS is not required to add static key word to beforeAll
+	

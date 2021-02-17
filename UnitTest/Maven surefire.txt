@@ -1,0 +1,1 @@
+this plugin is added to do mvn test thats help when building app with maven do the thest also

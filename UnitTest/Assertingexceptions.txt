@@ -1,0 +1,3 @@
+Asserting exceptions with assertThrows with assertThrows is that try to confirm that our method 
+throw the exception correctly
+		assertThrows(ArithmeticException.class, ()->mathUtils.devide(1, 0),"Assert Throow");
