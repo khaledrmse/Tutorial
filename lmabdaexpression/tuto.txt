@@ -1,0 +1,15 @@
+advantage lambda expression:
+1. enable fuctional programming
+2. organize code 
+3. use API organisation 
+4. parallel programming
+
+fuctionnal programming vs orionted object programmin 
+
+fuctionnal programming make your code more readable and organization.
+
+lambda expression let you to passe methods that not below to any class,
+these function can be used as value;
+
+but we have to define an interface tha contain the signature of the function to avoid that we have 
+to use java.util.Function that have interface predifined
